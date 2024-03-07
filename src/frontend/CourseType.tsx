@@ -26,7 +26,7 @@ export default function CourseType() {
   return (
     <div className="course-field-group">
       {fieldData.map((field) => (
-        <div className="course-field" id={field.id}>
+        <div className="course-field" id={field.id} key={field.id}>
           <Image
             src={field.img}
             alt={field.text}
