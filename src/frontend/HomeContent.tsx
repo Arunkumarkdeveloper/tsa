@@ -34,7 +34,6 @@ export default function HomeContent() {
       </div>
       <div className="d-flex justify-content-center mb-50">
         <div className="home-content-group-field">
-          <Image src="/image/think.png" alt="think" width={300} height={200} />
           <div>
             <h6 className="fw-600 mb-15">How to Select the Right Course?</h6>
             <p className="mb-15">
@@ -54,6 +53,7 @@ export default function HomeContent() {
               are willing to pursue.
             </p>
           </div>
+          <Image src="/image/think.png" alt="think" width={300} height={200} />
         </div>
       </div>
     </React.Fragment>

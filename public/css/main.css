@@ -970,3 +970,31 @@
 .mb-0 {
     margin-bottom: 0 !important;
 }
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+h1 {
+    line-height: 2 !important;
+}
+
+h2 {
+    line-height: 2 !important;
+}
+
+h3 {
+    line-height: 2 !important;
+}
+
+h4 {
+    line-height: 2 !important;
+}
+
+h5 {
+    line-height: 2 !important;
+}
+
+h6 {
+    line-height: 2 !important;
+}

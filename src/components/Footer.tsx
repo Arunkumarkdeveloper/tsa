@@ -48,51 +48,57 @@ export default function Footer() {
         <hr style={{ width: "90%" }} />
       </div>
       <div className="Footer-section2">
-        <Image
-          src="/image/linkedin.svg"
-          alt="linkedin-collegetsa"
-          title="linkedin-collegetsa"
-          width={25}
-          height={25}
-        />
-        <Image
-          src="/image/twitter.svg"
-          alt="twitter-collegetsa"
-          title="twitter-collegetsa"
-          width={25}
-          height={25}
-        />
-        <Image
-          src="/image/telegram.svg"
-          alt="telegram-collegetsa"
-          title="telegram-collegetsa"
-          width={25}
-          height={25}
-        />
-        <Image
-          src="/image/youtube.svg"
-          alt="youtube-collegetsa"
-          title="youtube-collegetsa"
-          width={25}
-          height={25}
-        />
-        <Image
-          src="/image/instagram.svg"
-          alt="instagram-collegetsa"
-          title="instagram-collegetsa"
-          width={25}
-          height={25}
-        />
-        <Image
-          src="/image/whatsapp.svg"
-          alt="whatsapp-collegetsa"
-          title="whatsapp-collegetsa"
-          width={25}
-          height={25}
-        />
+        <a href="https://www.facebook.com/Tsaservices" target="_blank">
+          <Image
+            src="/image/facebook.svg"
+            alt="telegram-collegetsa"
+            title="telegram-collegetsa"
+            width={25}
+            height={25}
+          />
+        </a>
+        <a href="https://t.me/tsaservices" target="_blank">
+          <Image
+            src="/image/telegram.svg"
+            alt="telegram-collegetsa"
+            title="telegram-collegetsa"
+            width={25}
+            height={25}
+          />
+        </a>
+        <a href="https://www.youtube.com/@TSASERVICES/featured" target="_blank">
+          <Image
+            src="/image/youtube.svg"
+            alt="youtube-collegetsa"
+            title="youtube-collegetsa"
+            width={25}
+            height={25}
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/tsa_services_education_gudie?igsh=MTluN25yN2E0MDlzZg=="
+          target="_blank"
+        >
+          <Image
+            src="/image/instagram.svg"
+            alt="instagram-collegetsa"
+            title="instagram-collegetsa"
+            width={25}
+            height={25}
+          />
+        </a>
+        <a href="https://wa.me/qr/XAKKC4YOZ5OBG1" target="_blank">
+          <Image
+            src="/image/whatsapp.svg"
+            alt="whatsapp-collegetsa"
+            title="whatsapp-collegetsa"
+            width={25}
+            height={25}
+          />
+        </a>
       </div>
       <div className="mt-20 Footer-section3">
-        <a href="tel:8122294222" className="contact mr-30">
+        <a href="tel:9677869617" className="contact mr-30">
           <span className="mr-10">
             <Image
               src="/image/call.png"
@@ -101,7 +107,7 @@ export default function Footer() {
               alt="collegetsa-call"
             />
           </span>
-          <span className="call-text">8122294222</span>
+          <span className="call-text">+91 9677869617</span>
         </a>
         <a href="mailto:collegetsainfo@gmail.com" className="contact">
           <span className="mr-10">

@@ -29,7 +29,7 @@ body {
 .search {
     line-height: 1.3;
     border: none;
-    background: #FFFFFF;
+    background: #ffffff;
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'><path fill='%23838D99' d='M13.22 14.63a8 8 0 1 1 1.41-1.41l4.29 4.29a1 1 0 1 1-1.41 1.41l-4.29-4.29zm-.66-2.07a6 6 0 1 0-8.49-8.49 6 6 0 0 0 8.49 8.49z'></path></svg>");
     background-repeat: no-repeat;
     background-position: 12px 11px;
@@ -45,7 +45,9 @@ body {
     display: none;
 }
 
-.nav-elements {}
+.nav-elements {
+    color: #efefef !important;
+}
 
 .nav-elements ul {
     display: flex;
@@ -81,6 +83,35 @@ body {
     width: 100%;
     height: 2px;
     background-color: #574c4c;
+}
+
+.ReactModal__Overlay {
+    z-index: 5000 !important;
+}
+
+.form {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 25px;
+    overflow-y: hidden !important;
+}
+
+.mega-menu {
+    background-color: #ffffff;
+    position: absolute;
+    top: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    right: 1%;
+    width: max-content !important;
+    min-width: 50%;
+    min-height: 100px;
+    color: #252525 !important;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
 }
 
 @media (max-width: 768px) {
